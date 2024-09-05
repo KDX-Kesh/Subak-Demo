@@ -1,0 +1,240 @@
+:root {
+  --font-family: "Space Mono", monospace;
+  --font-weight: 400;
+  --font-style: normal;
+  --background-color: #2e2e2e;
+  --text-color: #ffffff;
+  --border-color: #ffffff;
+  --border-radius: 20px;
+  --card-color: rgba(38, 51, 63, 0.849);
+  --border-width: 0px;
+  --container-width: 80%;
+  --arrow-position: 50%;
+  --arrow-transform: translateY(-50%);
+  --media-container-height: 60vh;
+  --padding: 20px;
+  --margin-top: 15vh;
+  --bottom-position: 10px;
+  --restart-icon-height: 3vh;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust height based on your needs */
+  overflow: hidden;
+}
+
+#background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Ensures the video stays behind any other content */
+}
+
+.background-video-container * {
+  position: relative;
+  z-index: 1; /* Ensure content above the video */
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  margin-top: var(--margin-top);
+  padding: 4vh;
+  background-color: var(--card-color);
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+}
+
+.container {
+  width: var(--container-width);
+}
+
+.arrow {
+  top: var(--arrow-position);
+  position: absolute;
+  transform: var(--arrow-transform);
+  cursor: pointer;
+}
+
+#left-arrow {
+  left: 20px;
+}
+
+#right-arrow {
+  right: 20px;
+}
+
+.rotate-left {
+  transform: rotate(180deg);
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#context {
+  font-size: 14px;
+}
+
+#subtext {
+  font-size: 12px;
+}
+
+.media-container {
+  flex: 1;
+  border: var(--border-width) var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--media-container-height);
+  overflow: hidden; /* Ensure the image doesn't overflow the container */
+}
+
+.text-container {
+  flex: 1;
+  border: var(--border-width) solid var(--border-color);
+  padding: 50px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.audio-container {
+  display: flex;
+  align-items: center;
+}
+
+.audio-container img {
+  margin-right: 10px;
+}
+
+.bottom-nav {
+  bottom: var(--bottom-position);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1vh;
+}
+
+#counter {
+  font-size: 30px;
+  padding-left: 1vh;
+}
+
+.restart-icon {
+  cursor: pointer;
+  height: var(--restart-icon-height);
+  padding-right: 1.5vh;
+  object-fit: cover;
+}
+
+.media-container {
+  border-radius: var(--border-radius);
+}
+
+.media-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.media-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+/* Animation keyframes  */
+/* Animations for when moving to the next card (slide left out, slide right in) */
+@keyframes slideOutLeft {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animations for when moving to the previous card (slide right out, slide left in) */
+@keyframes slideOutRight {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Base card class */
+.card {
+  transition: all 0.5s ease;
+}
+
+/* Class for sliding the card out to the left when moving to the next card */
+.card.animate-out-left {
+  animation: slideOutLeft 0.5s forwards;
+}
+
+/* Class for sliding the card in from the right when moving to the next card */
+.card.animate-in-right {
+  animation: slideInRight 0.5s forwards;
+}
+
+/* Class for sliding the card out to the right when moving to the previous card */
+.card.animate-out-right {
+  animation: slideOutRight 0.5s forwards;
+}
+
+/* Class for sliding the card in from the left when moving to the previous card */
+.card.animate-in-left {
+  animation: slideInLeft 0.5s forwards;
+}

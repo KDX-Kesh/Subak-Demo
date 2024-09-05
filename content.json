@@ -1,0 +1,81 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "media": {
+        "type": "image",
+        "url": "assets/Card_Assets/1.jpg"
+      },
+      "title": "Apple",
+      "audio": "assets/Card_Assets/apple.mp3",
+      "context": "In a world where fruit compete for fame, the apple was destined for greatness. It originally aspired to become a lead performer in a synchronized moonwalking troupe made entirely of ducks. However, after an unexpected tumble over a shimmering rainbow, the apple found a new calling.",
+      "subtext": "The apple is said to possess mysterious powers. Some believe that if you eat it while balancing on one foot under a full moon, it can whisk you away to a fantastical realm filled with talking toasters and endless possibilities."
+    },
+    {
+      "id": 2,
+      "media": {
+        "type": "image",
+        "url": "assets/Card_Assets/2.jpg"
+      },
+      "title": "Banana",
+      "audio": "assets/Card_Assets/banana.mp3",
+      "context": "The banana is no ordinary fruit—it harbors grand dreams of one day joining the prestigious intergalactic kazoo orchestra. For now, it spends its time rehearsing elaborate dance routines in front of a mirror that has been known to transform into a sentient disco ball. With each twirl and spin, the banana imagines itself performing on cosmic stages far beyond Earth.",
+      "subtext": "At night, the banana moonlights as the host of an eccentric talk show, entertaining invisible squirrels with interviews and witty banter. It has garnered a loyal following among nocturnal creatures, who tune in for its bizarre yet captivating antics."
+    },
+    {
+      "id": 3,
+      "media": {
+        "type": "image",
+        "url": "assets/Card_Assets/3.jpg"
+      },
+      "title": "Cat",
+      "audio": "assets/Card_Assets/cat.mp3",
+      "context": "This particular cat isn't just an expert in napping—it also holds a prestigious title in the world of competitive knitting. During a high-stakes tournament, it crafted a scarf so intricate that it doubled as a time-travel device. Using this peculiar invention, the cat often travels to distant eras, taking naps and leaving behind threads of mystery wherever it goes.",
+      "subtext": "When not knitting or time-traveling, the cat enjoys hosting philosophical debates with a group of philosophically inclined slippers. These debates are known for their thought-provoking insights into the nature of existence, naps, and yarn."
+    },
+    {
+      "id": 4,
+      "media": {
+        "type": "video",
+        "url": "assets/Card_Assets/4.mp4"
+      },
+      "title": "Dog",
+      "audio": "assets/Card_Assets/dog.mp3",
+      "context": "The dog holds a PhD in Belly Rub Science from the prestigious Canine Academy of Cuddles. As an honorary member of the Society for Advanced Belly Rub Science, it specializes in groundbreaking research on the optimal number of treats one can consume while doing absolutely nothing. Its findings have been revolutionary in the world of canine relaxation.",
+      "subtext": "By day, the dog is a humble researcher, but by night, it stars in a wildly popular soap opera. Its role as a heroic fire hydrant has captivated audiences across the globe, proving that even the simplest things can become stars with the right amount of charm."
+    },
+    {
+      "id": 5,
+      "media": {
+        "type": "video",
+        "url": "assets/Card_Assets/5.mp4"
+      },
+      "title": "Elephant",
+      "audio": "assets/Card_Assets/elephant.mp3",
+      "context": "This elephant once had big dreams of making it as a professional breakdancer. While its moves were top-notch, its massive size made backflips a challenge. After several attempts, the elephant retired from breakdancing and turned to poetry, where it now writes sonnets about its true love—peanut butter. Its works have been praised for their depth, rhythm, and ability to evoke strong emotions about snacks.",
+      "subtext": "Though it has left the breakdancing world behind, the elephant can sometimes be seen leading spontaneous conga lines at highly formal tea parties, where its enthusiasm for rhythm still shines through."
+    },
+    {
+      "id": 6,
+      "media": {
+        "type": "video",
+        "url": "assets/Card_Assets/6.mp4"
+      },
+      "title": "Flower",
+      "audio": "assets/Card_Assets/flower.mp3",
+      "context": "This flower once dazzled audiences on Broadway, starring in a hit musical about the secret lives of garden gnomes. However, after years in the spotlight, it decided to retire to a quieter life. Now, it spends its days teaching interpretive dance to passing clouds, who appreciate its guidance as they drift lazily across the sky.",
+      "subtext": "Occasionally, this whimsical flower enjoys messing with the bees by whispering riddles that are nearly impossible to solve. It’s all in good fun, of course, and the bees take the challenge with grace, often returning with a bouquet of honey as a peace offering."
+    },
+    {
+      "id": 7,
+      "media": {
+        "type": "video",
+        "url": "assets/Card_Assets/7.mp4"
+      },
+      "title": "Giraffe",
+      "audio": "assets/Card_Assets/giraffe.mp3",
+      "context": "This giraffe holds an impressive world record for balancing an astounding number of marshmallows on its head while flawlessly reciting the entire alphabet backward in song form. Its talent for multitasking has earned it a place in the hearts of many, and it continues to surprise onlookers with its seemingly endless array of quirky talents.",
+      "subtext": "Rumor has it that in addition to its balancing act, the giraffe is an expert underwater chess player. Few have witnessed these aquatic matches, but those who have say it’s a sight to behold—especially considering the giraffe’s considerable height advantage in water."
+    }
+  ]
+}

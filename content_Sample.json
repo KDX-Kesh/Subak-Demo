@@ -1,0 +1,28 @@
+Use this format for the content json
+
+{
+  "cards": [
+    {
+      "id": 0,
+      "media": {
+        "type": null, 
+        "url": null
+      },
+      "title": null,
+      "audio": null,
+      "context": null,
+      "subtext": null
+    },
+    {
+      "id": 1,
+      "media": {
+        "type": null, 
+        "url": null
+      },
+      "title": null,
+      "audio": null,
+      "context": null,
+      "subtext": null
+    }
+  ]
+}
