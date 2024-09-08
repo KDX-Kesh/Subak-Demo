@@ -1,6 +1,6 @@
-┌─┐┬ ┬┌┐ ┌─┐┬┌─
-└─┐│ │├┴┐├─┤├┴┐
-└─┘└─┘└─┘┴ ┴┴ ┴
+┌─┐┬ ┬┌┐ ┌─┐┬┌─  
+└─┐│ │├┴┐├─┤├┴┐  
+└─┘└─┘└─┘┴ ┴┴ ┴  
 Demo version
 
 ## System built to test web capabilites for an interactive touch screen for the Museum Saka Subak Exhibit. This interactive is for interactive 4.1 in the brief.
